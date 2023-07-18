@@ -1,0 +1,37 @@
+.header{
+    grid-area: header;
+}
+.Aside{
+    grid-area:Aside;
+    
+}
+.artical{
+    grid-area:Article;
+    
+}
+.container{
+    padding:30px;
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: auto;
+    grid-template-areas: "header header header "
+    "Aside Article Article "
+    "Aside  Article Article "
+   ;
+    border:1px solid black;
+}
+img{
+    width:200px;
+    height:200px;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+}
+.absolute{
+    position: relative;
+    top:80px;
+}
+h1{
+    text-align: center;
+}

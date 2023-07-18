@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+}
+.box{
+   /* width:40px; */
+   /* height:10px; */
+   border:1px solid black;
+  
+  
+   
+}
+td{
+  
+    text-align: center;
+    
+}
+.firstcolor{
+    background-color: #ff9999;
+}
+.secondcolor{
+    background-color:#97c9fb;
+}
+.thirdcolor{
+    background-color: #fdff8c;
+}
+.fourthcolor{
+    background-color: #9bff99;
+}
